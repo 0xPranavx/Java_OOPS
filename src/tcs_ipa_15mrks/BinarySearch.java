@@ -1,3 +1,5 @@
+package tcs_ipa_15mrks;
+
 import java.util.*;
 
 public class BinarySearch {

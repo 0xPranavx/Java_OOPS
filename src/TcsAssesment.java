@@ -7,8 +7,8 @@ public class TcsAssesment {
         for(int a = 0 ; a<4 ; a++){
             int laptopId = sc.nextInt();
             sc.nextLine();
-            String brand = sc.nextLine();
-            String osType = sc.nextLine();
+            String brand = sc.nextLine().trim();
+            String osType = sc.nextLine().trim();
             double price =sc.nextDouble();
             int rating = sc.nextInt();
             laptopObj.add(new Laptop(laptopId,brand,osType,price,rating));
