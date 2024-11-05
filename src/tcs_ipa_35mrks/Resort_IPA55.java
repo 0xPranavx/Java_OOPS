@@ -1,3 +1,5 @@
+package tcs_ipa_35mrks;
+
 import java.util.*;
 public class Resort_IPA55 {
     public static void main(String[] args) {

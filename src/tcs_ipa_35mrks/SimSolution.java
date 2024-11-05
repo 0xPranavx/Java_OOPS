@@ -1,7 +1,8 @@
-import java.util.*;
-import java.io.* ;
+package tcs_ipa_35mrks;
 
- class Sim2 {
+import java.util.*;
+
+class Sim2 {
     private int id ;
     private String company ;
     private int balance;
@@ -94,9 +95,9 @@ public class SimSolution {
            SimArr.add(new Sim2(id , company,balance,ratePerSecond,circle));
 //           System.out.println(id + company + balance + ratePerSecond + circle);
        }
-//        SimArr.add(new Sim2(1,"jio",430,1.32,"mumbai"));
-//        SimArr.add(new Sim2(2,"vodafone",630,2.32,"mumbai"));
-//        SimArr.add(new Sim2(3,"jio",530,3.32,"mumbai"));
+//        SimArr.add(new tcs_ipa_35mrks.Sim2(1,"jio",430,1.32,"mumbai"));
+//        SimArr.add(new tcs_ipa_35mrks.Sim2(2,"vodafone",630,2.32,"mumbai"));
+//        SimArr.add(new tcs_ipa_35mrks.Sim2(3,"jio",530,3.32,"mumbai"));
        ArrayList <Sim2> ans = matchAndSort(SimArr , "mumbai", 4.3);
 
             for (Sim2 an : ans) {

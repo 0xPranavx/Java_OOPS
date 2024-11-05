@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package tcs_ipa_35mrks;
+
 import java.util.*;
 
 public class Beach_IPA51 {

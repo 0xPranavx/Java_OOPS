@@ -1,3 +1,5 @@
+package tcs_ipa_35mrks;
+
 import java.util.*;
 
 public class TcsAssesment {
@@ -44,7 +46,7 @@ public class TcsAssesment {
         return count;
     }
 
-    // Method to search laptops by OS type and sort them by Laptop ID in descending order
+    // Method to search laptops by OS type and sort them by tcs_ipa_35mrks.Laptop ID in descending order
     public static ArrayList<Laptop> searchLaptopByOsType(ArrayList<Laptop> laptopObj, String os) {
         ArrayList<Laptop> osLaptopObj = new ArrayList<>();
 
@@ -56,7 +58,7 @@ public class TcsAssesment {
             }
         }
 
-        // Sort laptops by Laptop ID in descending order
+        // Sort laptops by tcs_ipa_35mrks.Laptop ID in descending order
         for (int z = 0; z < osLaptopObj.size() - 1; z++) {
             for (int y = z + 1; y < osLaptopObj.size(); y++) {
                 if (osLaptopObj.get(z).getLaptopId() < osLaptopObj.get(y).getLaptopId()) {
@@ -70,7 +72,7 @@ public class TcsAssesment {
     }
 }
 
-// Laptop class with necessary attributes and methods
+// tcs_ipa_35mrks.Laptop class with necessary attributes and methods
 class Laptop {
     private int laptopId;
     private String brand;
@@ -78,7 +80,7 @@ class Laptop {
     private double price;
     private int rating;
 
-    // Constructor to initialize Laptop object
+    // Constructor to initialize tcs_ipa_35mrks.Laptop object
     Laptop(int laptopId, String brand, String osType, double price, int rating) {
         this.laptopId = laptopId;
         this.brand = brand;
@@ -87,7 +89,7 @@ class Laptop {
         this.rating = rating;
     }
 
-    // Getter methods for Laptop attributes
+    // Getter methods for tcs_ipa_35mrks.Laptop attributes
     public int getLaptopId() {
         return laptopId;
     }

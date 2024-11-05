@@ -1,3 +1,5 @@
+package tcs_ipa_35mrks;
+
 import java.util.*;
 
 class Course{
